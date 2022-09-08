@@ -1,0 +1,37 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:up": "migrate-mongo up",
+    "migrate:down": "migrate-mongo down"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "mongoose-immutable": "^0.0.2",
+    "node": "^18.7.0",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateeksharma5/newrepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prateeksharma5/newrepo/issues"
+  },
+  "homepage": "https://github.com/prateeksharma5/newrepo#readme",
+  "description": ""
+}
